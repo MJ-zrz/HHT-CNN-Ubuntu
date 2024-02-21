@@ -1,0 +1,17 @@
+{
+    "Task name": "MIMIC-III",
+    "Mode": "draw-train",
+
+    "Time-freq method": "emd",
+    "Max pulse (Hz)": 0.2,
+
+    "Cropping size": [81, 61, 575, 427],
+    "Image size": [224, 224],
+
+    "Model": "resnet101",
+    "Batch size": 32,
+    "Test size": 0.2,
+    "Train iter num": 20,
+    "Learning rate": 0.001,
+    "Optimizer": "adamw"
+}
